@@ -1,9 +1,32 @@
 * {
     font-family: Montserrat;
 }
-
 /*Loredan Nav bar */
-    
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:#03A678;
+  }
 /*Loredan agence */
 
 /*Thomas dark mode*/
