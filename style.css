@@ -1,4 +1,6 @@
 * {
+    margin : 0;
+    padding : 0;
     font-family: Montserrat;
 }
 
@@ -25,11 +27,40 @@ margin-left : 1%;
 }
 
 /*Thomas valeurs et chiffres*/
+.boxValeurs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.titleValeurs {
+    margin-left: 15%;
+}
+.txtValeurs {
+    width : 30vw;
+}
+
+.txtValeurs p {
+    text-align: justify;
+}
+
+.donnee {
+    display: flex;
+    align-items: center;
+}
+.chiffres {
+    flex-direction: column;
+    width : 30vw;
+    display : flex;
+    align-items: center;
+}
 
 
 .chiffresStrong {
-    font-size : 2em;
+    font-size : 3em;
+    color : #03A678;
+    font-weight: bold;
 }
+
 /*Gaspard slider personnel*/
 
 /*Gaspard image parralaxe*/
