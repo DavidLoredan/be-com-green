@@ -1,1 +1,40 @@
+* {
+    font-family: Montserrat;
+}
 
+/*Loredan Nav bar */
+    
+/*Loredan agence */
+
+/*Thomas dark mode*/
+.darkmode{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.transitionDarkmode {
+    
+    color : #02735E;
+    font-size : 1.4em;
+    font-weight : bold;
+}
+.buttonDM {
+margin-left : 1%;
+}
+
+
+/*Thomas valeurs et chiffres*/
+
+/*Gaspard slider personnel*/
+
+/*Gaspard image parralaxe*/
+
+/*Victor prestation*/
+
+/*Victor client*/
+
+/*Bang contact*/
+
+/*Bang footer*/
