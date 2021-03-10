@@ -24,9 +24,12 @@
 margin-left : 1%;
 }
 
-
 /*Thomas valeurs et chiffres*/
 
+
+.chiffresStrong {
+    font-size : 2em;
+}
 /*Gaspard slider personnel*/
 
 /*Gaspard image parralaxe*/
