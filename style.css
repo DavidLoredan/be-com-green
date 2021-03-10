@@ -1,4 +1,5 @@
 * {
+<<<<<<< HEAD
   margin: 0;
   padding: 0;
   font-family: Montserrat;
@@ -45,10 +46,61 @@ li a:hover {
 }
 .buttonDM {
   margin-left: 1%;
+=======
+    margin : 0;
+    padding : 0;
+    font-family: Montserrat;
+}
+/*Loredan Nav bar */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:#03A678;
+  }
+/*Loredan agence */
+
+/*Thomas dark mode*/
+.darkmode{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.transitionDarkmode {
+    
+    color : #02735E;
+    font-size : 1.4em;
+    font-weight : bold;
+}
+.buttonDM {
+margin-left : 1%;
+>>>>>>> 2537e331a1e299106836a75195ed4909d4419a07
 }
 
 /*Thomas valeurs et chiffres*/
 .boxValeurs {
+<<<<<<< HEAD
   display: flex;
   justify-content: space-around;
 }
@@ -79,6 +131,39 @@ li a:hover {
   font-size: 3em;
   color: #03a678;
   font-weight: bold;
+=======
+    display: flex;
+    justify-content: space-around;
+}
+
+.titleValeurs {
+    margin-left: 15%;
+}
+.txtValeurs {
+    width : 30vw;
+}
+
+.txtValeurs p {
+    text-align: justify;
+}
+
+.donnee {
+    display: flex;
+    align-items: center;
+}
+.chiffres {
+    flex-direction: column;
+    width : 30vw;
+    display : flex;
+    align-items: center;
+}
+
+
+.chiffresStrong {
+    font-size : 3em;
+    color : #03A678;
+    font-weight: bold;
+>>>>>>> 2537e331a1e299106836a75195ed4909d4419a07
 }
 
 /*Gaspard slider personnel*/
@@ -90,6 +175,7 @@ li a:hover {
 /*Victor client*/
 
 /*Bang contact*/
+<<<<<<< HEAD
 .contact {
   width: 100vw;
   margin: auto;
@@ -118,3 +204,7 @@ li a:hover {
 .footright a li {
   margin-left: 30px;
 }
+=======
+
+/*Bang footer*/
+>>>>>>> 2537e331a1e299106836a75195ed4909d4419a07
