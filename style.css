@@ -157,6 +157,12 @@ input:checked[type="checkbox"]:before {
 /*Gaspard image parralaxe*/
 
 /*Victor prestation*/
+.presentation {
+  display: flex;
+  margin: 5%;
+  background-color: #F28C0F;
+  color: #FFF;
+}
 
 /*Victor client*/
 .titleClients {
