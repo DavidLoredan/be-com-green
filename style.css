@@ -161,12 +161,12 @@ input:checked[type="checkbox"]:before {
 /*Victor client*/
 .titleClients {
   text-align: center;
+  font-family: Montserrat, sans-serif;
   margin: 5% 0% 2% 0%;
 }
 
 
 .logoClients {
-  border: 1px solid green;
   display: flex;
   flex-flow: row wrap;
   justify-content: stretch;
