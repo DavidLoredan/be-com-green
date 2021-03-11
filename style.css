@@ -4,6 +4,11 @@
   font-family: Montserrat;
 }
 /*Loredan Nav bar */
+.img-logo{display: block;
+  position: initial;
+  width: 20vw;
+  height: 15vw;
+}
 
 ul {
   list-style-type: none;
@@ -29,7 +34,27 @@ li a:hover {
   background-color: #03a678;
 }
 /*Loredan agence */
-
+.main1{
+  margin: 2px;
+  border: 1px solid black;
+  display:flex;
+  flex-direction: row;
+}
+.page1{
+  display: flex;
+  justify-content:left;
+  margin-right: 50%;
+  width: 50%;
+  height: 50vw;
+  background-color: #02735E;
+}
+.lake1{
+  display: flex;
+  justify-content:right;
+  width: 50%;
+  height: 50vw;
+  margin-left: 50%;
+}
 /*Thomas dark mode*/
 .darkmode {
   margin-top : 3%;
