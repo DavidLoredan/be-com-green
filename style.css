@@ -32,6 +32,7 @@ li a:hover {
 
 /*Thomas dark mode*/
 .darkmode {
+  margin-top : 3%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,32 +48,77 @@ li a:hover {
   margin-left: 1%;
 }
 
+.checkPos {
+  margin-top : 5em;
+  position : absolute;
+}
+
+.dmCheck {
+  width : 50px;
+  height : 2em;
+  appearance: none;
+  outline: none;
+  box-shadow: inset 0 0 7px rgba(0,0,0,.2);
+  border-radius: 20px;
+  transition : .5s; 
+}
+
+.dmCheck:checked {
+background-color : #03a678;
+box-shadow : inset 0 0 5px rgba(0,0,0,.2);
+}
+
+input[type="checkbox"]:before {
+  content : "";
+  position: absolute;
+  width : 2em;
+  height : 2em;
+  border-radius : 50%;
+  top :0;
+  left:0;
+  background: #fff;
+  box-shadow : inset 0 0 2px rgba(0,0,0,.2);
+  transform : scale(1.1);
+  transition : .5s; 
+}
+
+input:checked[type="checkbox"]:before {
+  left : 45%;
+  transition : .5s; 
+}
+
 /*Thomas valeurs et chiffres*/
 .boxValeurs {
-  display: flex;
-  justify-content: space-around;
+  margin-top: 5%;
 }
 
 .titleValeurs {
   margin-left: 15%;
 }
 .txtValeurs {
-  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+  align-items : center;
+  width: 100vw;
 }
 
 .txtValeurs p {
   text-align: justify;
+  width : 40vw;
+  margin : 1%;
 }
 
+        /* Chiffres animés */ 
 .donnee {
   display: flex;
   align-items: center;
+  flex-direction : column;
+  margin : 1%;
 }
 .chiffres {
-  flex-direction: column;
-  width: 30vw;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .chiffresStrong {
@@ -118,3 +164,8 @@ li a:hover {
 .footright a li {
   margin-left: 30px;
 }
+
+.dark {
+  background-color : darkgray;
+}
+
