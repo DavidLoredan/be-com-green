@@ -161,7 +161,6 @@ input:checked[type="checkbox"]:before {
 /*Victor client*/
 .titleClients {
   text-align: center;
-  font-family: Montserrat, sans-serif;
   margin: 5% 0% 2% 0%;
 }
 
