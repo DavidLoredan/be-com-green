@@ -74,37 +74,36 @@ li a:hover {
 
 /*Thomas valeurs et chiffres*/
 .boxValeurs {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .titleValeurs {
-    margin-left: 15%;
+  margin-left: 15%;
 }
 .txtValeurs {
-    width : 30vw;
+  width: 30vw;
 }
 
 .txtValeurs p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .donnee {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .chiffres {
-    flex-direction: column;
-    width : 30vw;
-    display : flex;
-    align-items: center;
+  flex-direction: column;
+  width: 30vw;
+  display: flex;
+  align-items: center;
 }
 
-
 .chiffresStrong {
-    font-size : 3em;
-    color : #03A678;
-    font-weight: bold;
+  font-size: 3em;
+  color: #03a678;
+  font-weight: bold;
 }
 
 /*Gaspard slider personnel*/
