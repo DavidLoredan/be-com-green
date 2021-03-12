@@ -220,19 +220,16 @@ input:checked[type="checkbox"]:before {
 .logoClients {
   display: flex;
   flex-flow: row wrap;
-  justify-content: stretch;
-  width: 20%;
+  justify-content: center;
+  width: 40%;
   margin: auto;
   padding-bottom: 5%;
 }
 
 .logoClients img {
-  max-width: 74px;
-  max-width: 74px;
-}
-
-.logoClients a {
-  width: 33%;
+  max-width: 7em;
+  max-height: 7em;
+  margin: 1em;
 }
 
 /*Bang contact*/
