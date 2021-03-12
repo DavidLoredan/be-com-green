@@ -1,1 +1,262 @@
-console.log('Hi Gaspard');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+/*Loredan Nav bar */
+.img-logo{display: block;
+  position: initial;
+  width: 20vw;
+  height: 15vw;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2.0em;
+}
+
+li a:hover {
+  background-color: #03a678;
+}
+/*Loredan agence */
+.main1{
+  margin: 2px;
+  border: 1px solid black;
+  display:flex;
+  flex-direction: row;
+}
+.page1{
+  display: flex;
+  justify-content:left;
+  margin-right:0;
+  width: 50%;
+  height: 50vw;
+  background-color: #02735E;
+}
+.lake1{
+  display: flex;
+  justify-content:right;
+  width: 50%;
+  height: 50vw;
+  margin-left: 50%;
+}
+.agence{
+  font-size: 1.4em;
+  color: azure;
+}
+/*Thomas dark mode*/
+.darkmode {
+  margin-top : 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.transitionDarkmode {
+  color: #02735e;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.buttonDM {
+  margin-left: 1%;
+}
+
+.checkPos {
+  margin-top : 5em;
+  position : absolute;
+}
+
+.dmCheck {
+  width : 50px;
+  height : 2em;
+  appearance: none;
+  outline: none;
+  box-shadow: inset 0 0 7px rgba(0,0,0,.2);
+  border-radius: 20px;
+  transition : .5s; 
+}
+
+.dmCheck:checked {
+background-color : #03a678;
+box-shadow : inset 0 0 5px rgba(0,0,0,.2);
+}
+
+input[type="checkbox"]:before {
+  content : "";
+  position: absolute;
+  width : 2em;
+  height : 2em;
+  border-radius : 50%;
+  top :0;
+  left:0;
+  background: #fff;
+  box-shadow : inset 0 0 2px rgba(0,0,0,.2);
+  transform : scale(1.1);
+  transition : .5s; 
+}
+
+input:checked[type="checkbox"]:before {
+  left : 45%;
+  transition : .5s; 
+}
+
+/*Thomas valeurs et chiffres*/
+.boxValeurs {
+  margin-top: 5%;
+}
+
+.titleValeurs {
+  margin-left: 15%;
+}
+.txtValeurs {
+  display: flex;
+  justify-content: space-around;
+  align-items : center;
+  width: 100vw;
+}
+
+.txtValeurs p {
+  text-align: justify;
+  width : 40vw;
+  margin : 1%;
+}
+
+        /* Chiffres animés */ 
+.donnee {
+  display: flex;
+  align-items: center;
+  flex-direction : column;
+  margin : 1%;
+}
+.chiffres {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chiffresStrong {
+  font-size: 3em;
+  color: #03a678;
+  font-weight: bold;
+}
+
+/*Gaspard slider personnel*/
+
+/*Gaspard image parralaxe*/
+
+/*Victor prestation*/
+.presentation {
+  display: flex;
+  margin: 5%;
+  background-color: #F28C0F;
+  color: #FFF;
+}
+
+/*Victor client*/
+.titleClients {
+  text-align: center;
+  margin: 5% 0% 2% 0%;
+}
+
+
+.logoClients {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: stretch;
+  width: 20%;
+  margin: auto;
+}
+
+.logoClients img {
+  width: 33%;
+}
+
+.blanc {
+  margin: 5%;
+}
+
+/*Bang contact*/
+.contact {
+  width: 100vw;
+  margin: auto;
+
+  display: inline-flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 20px;
+  color: #4f4f4f;
+}
+
+/*Bang footer*/
+
+.footer {
+  width: 100vw;
+  height: 50px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.footleft li {
+  margin-left: 30px;
+}
+
+.footright a li {
+  margin-left: 30px;
+}
+
+.dark {
+  background-color : darkgray;
+}
+
+.team {
+  padding-top: 5vh;
+}
+
+.slider {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5%;
+  padding-bottom: 10vh;
+  justify-content: center;
+}
+
+.teamPic {
+position: relative;
+width: 200vh;
+margin: 0%;
+animation: slider 20sec infinite;
+
+}
+img.team {
+  height: 40vh;
+  width: 25vh;
+  border: solid black ;
+  position: relative;
+  
+}
+h1.team {
+  flex-direction: row;
+  margin-left: 40vh;
+  color: #4f4f4f;
+}
