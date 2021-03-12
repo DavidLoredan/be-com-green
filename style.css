@@ -28,7 +28,6 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 2.0em;
 }
 
 li a:hover {
@@ -44,7 +43,7 @@ li a:hover {
 .page1{
   display: flex;
   justify-content:left;
-  margin-right:0;
+  margin-right: 50%;
   width: 50%;
   height: 50vw;
   background-color: #02735E;
@@ -55,10 +54,6 @@ li a:hover {
   width: 50%;
   height: 50vw;
   margin-left: 50%;
-}
-.agence{
-  font-size: 1.4em;
-  color: azure;
 }
 /*Thomas dark mode*/
 .darkmode {
@@ -89,6 +84,7 @@ li a:hover {
   appearance: none;
   outline: none;
   box-shadow: inset 0 0 7px rgba(0,0,0,.2);
+  border : 1px solid lightgray;
   border-radius: 20px;
   transition : .5s; 
 }
@@ -138,7 +134,10 @@ input:checked[type="checkbox"]:before {
   margin : 1%;
 }
 
-        /* Chiffres animés */ 
+        /* Chiffres animés */
+
+
+        
 .donnee {
   display: flex;
   align-items: center;
@@ -151,7 +150,7 @@ input:checked[type="checkbox"]:before {
   justify-content: center;
 }
 
-.chiffresStrong {
+.counter{
   font-size: 3em;
   color: #03a678;
   font-weight: bold;
@@ -162,35 +161,8 @@ input:checked[type="checkbox"]:before {
 /*Gaspard image parralaxe*/
 
 /*Victor prestation*/
-.presentation {
-  display: flex;
-  margin: 5%;
-  background-color: #F28C0F;
-  color: #FFF;
-}
 
 /*Victor client*/
-.titleClients {
-  text-align: center;
-  margin: 5% 0% 2% 0%;
-}
-
-
-.logoClients {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: stretch;
-  width: 20%;
-  margin: auto;
-}
-
-.logoClients img {
-  width: 33%;
-}
-
-.blanc {
-  margin: 5%;
-}
 
 /*Bang contact*/
 .contact {
