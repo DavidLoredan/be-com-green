@@ -28,6 +28,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 2.0em;
 }
 
 li a:hover {
@@ -43,7 +44,7 @@ li a:hover {
 .page1{
   display: flex;
   justify-content:left;
-  margin-right: 50%;
+  margin-right:0;
   width: 50%;
   height: 50vw;
   background-color: #02735E;
@@ -54,6 +55,10 @@ li a:hover {
   width: 50%;
   height: 50vw;
   margin-left: 50%;
+}
+.agence{
+  font-size: 1.4em;
+  color: azure;
 }
 /*Thomas dark mode*/
 .darkmode {
