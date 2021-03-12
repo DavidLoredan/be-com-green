@@ -4,12 +4,14 @@
   font-family: Montserrat;
 }
 /*Loredan Nav bar */
-header{display: flex;
+header{
+  margin-top: 2%;
+  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   align-content: space-around;
- 
-  height: 9vw;
+  max-width:100%;
+  height: 7vw;
 }
 .img-logo{
   width:17vw;
@@ -39,7 +41,6 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 2.0em;
 }
 
 li a:hover {
@@ -47,16 +48,21 @@ li a:hover {
 }
 /*Loredan agence */
 .main1{
-  margin: 2px;
-  border: 1px solid black;
   display:flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   background-color: #02735E;
+  max-width:100%;
+  height: auto;
+}
+.txtvaleurs{
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .boxagence{
-  margin-right:0;
   width: 50%;
-  height: 35vw;
+  height: 40vw;
   background-color: #02735E;
   font-size: 1.4em;
   color: azure;
@@ -71,12 +77,10 @@ padding-left: 15px;
   padding-top: 30px;
   padding-left: 15px;
 }
-.lake1{
+.boxImage{
   display: flex;
-  justify-content:right;
   width: 50%;
-  height: 35vw;
-  margin-left: 50%;
+  height: 40vw;
 }
 /*Thomas dark mode*/
 .darkmode {
@@ -107,6 +111,7 @@ padding-left: 15px;
   appearance: none;
   outline: none;
   box-shadow: inset 0 0 7px rgba(0,0,0,.2);
+  border : 1px solid lightgray;
   border-radius: 20px;
   transition : .5s; 
 }
@@ -156,7 +161,10 @@ input:checked[type="checkbox"]:before {
   margin : 1%;
 }
 
-        /* Chiffres animés */ 
+        /* Chiffres animés */
+
+
+        
 .donnee {
   display: flex;
   align-items: center;
@@ -169,7 +177,7 @@ input:checked[type="checkbox"]:before {
   justify-content: center;
 }
 
-.chiffresStrong {
+.counter{
   font-size: 3em;
   color: #03a678;
   font-weight: bold;
