@@ -208,7 +208,8 @@ input:checked[type="checkbox"]:before {
 
 .titlePrestation {
   margin-bottom: 2%;
-}
+  font-size: 2em;
+  }
 
 .subTitlePrestation {
   margin-bottom: 1%;
@@ -216,6 +217,7 @@ input:checked[type="checkbox"]:before {
 
 /*Victor client*/
 .titleClients {
+  font-size: 2em;
   text-align: center;
   margin: 5% 0% 2% 0%;
 }
@@ -226,14 +228,16 @@ input:checked[type="checkbox"]:before {
   justify-content: stretch;
   width: 20%;
   margin: auto;
+  padding-bottom: 5%;
 }
 
 .logoClients img {
-  width: 33%;
+  max-width: 74px;
+  max-width: 74px;
 }
 
-.blanc {
-  margin: 5%;
+.logoClients a {
+  width: 33%;
 }
 
 /*Bang contact*/
