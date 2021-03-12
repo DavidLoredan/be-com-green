@@ -162,8 +162,35 @@ input:checked[type="checkbox"]:before {
 /*Gaspard image parralaxe*/
 
 /*Victor prestation*/
+.presentation {
+  display: flex;
+  margin: 5%;
+  background-color: #F28C0F;
+  color: #FFF;
+}
 
 /*Victor client*/
+.titleClients {
+  text-align: center;
+  margin: 5% 0% 2% 0%;
+}
+
+
+.logoClients {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: stretch;
+  width: 20%;
+  margin: auto;
+}
+
+.logoClients img {
+  width: 33%;
+}
+
+.blanc {
+  margin: 5%;
+}
 
 /*Bang contact*/
 .contact {
