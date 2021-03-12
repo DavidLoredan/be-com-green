@@ -4,10 +4,20 @@
   font-family: Montserrat;
 }
 /*Loredan Nav bar */
-.img-logo{display: block;
-  position: initial;
-  width: 20vw;
-  height: 15vw;
+header{display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-around;
+ 
+  height: 9vw;
+}
+.img-logo{
+  width:17vw;
+  margin-left: 5%;
+  margin-right: 20%;
+}
+.page-navigation{
+  align-self: flex-end;
 }
 
 ul {
@@ -16,10 +26,11 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: white;
+  ;
 }
 
 li {
-  float: right;
+  float: left;
 }
 
 li a {
@@ -40,25 +51,32 @@ li a:hover {
   border: 1px solid black;
   display:flex;
   flex-direction: row;
+  background-color: #02735E;
 }
-.page1{
-  display: flex;
-  justify-content:left;
+.boxagence{
   margin-right:0;
   width: 50%;
-  height: 50vw;
+  height: 35vw;
   background-color: #02735E;
+  font-size: 1.4em;
+  color: azure;
+  text-align:left;
+  padding-left: 20px;
+}
+.box2agence{
+padding-top: 40px;
+padding-left: 15px;
+}
+.boxH2{
+  padding-top: 30px;
+  padding-left: 15px;
 }
 .lake1{
   display: flex;
   justify-content:right;
   width: 50%;
-  height: 50vw;
+  height: 35vw;
   margin-left: 50%;
-}
-.agence{
-  font-size: 1.4em;
-  color: azure;
 }
 /*Thomas dark mode*/
 .darkmode {
