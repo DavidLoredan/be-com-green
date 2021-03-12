@@ -157,11 +157,33 @@ input:checked[type="checkbox"]:before {
 /*Gaspard image parralaxe*/
 
 /*Victor prestation*/
-.presentation {
+.prestation {
   display: flex;
-  margin: 5%;
+  justify-content: space-between;
+  align-items: center;
   background-color: #F28C0F;
-  color: #FFF;
+  color: #fff;
+  margin-top: 5%;
+}
+
+.prestationBloc1 {
+  margin: 3% 5% 3% 10%;
+  width: 50%;
+  text-align: justify;
+}
+
+.prestationBloc2 {
+  margin: 3% 10% 3% 5%;
+  width: 40%;
+  text-align: justify;
+}
+
+.titlePrestation {
+  margin-bottom: 2%;
+}
+
+.subTitlePrestation {
+  margin-bottom: 1%;
 }
 
 /*Victor client*/
@@ -169,7 +191,6 @@ input:checked[type="checkbox"]:before {
   text-align: center;
   margin: 5% 0% 2% 0%;
 }
-
 
 .logoClients {
   display: flex;
