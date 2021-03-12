@@ -180,11 +180,33 @@ input:checked[type="checkbox"]:before {
 /*Gaspard image parralaxe*/
 
 /*Victor prestation*/
-.presentation {
+.prestation {
   display: flex;
-  margin: 5%;
+  justify-content: space-between;
+  align-items: center;
   background-color: #F28C0F;
-  color: #FFF;
+  color: #fff;
+  margin-top: 5%;
+}
+
+.prestationBloc1 {
+  margin: 3% 5% 3% 10%;
+  width: 50%;
+  text-align: justify;
+}
+
+.prestationBloc2 {
+  margin: 3% 10% 3% 5%;
+  width: 40%;
+  text-align: justify;
+}
+
+.titlePrestation {
+  margin-bottom: 2%;
+}
+
+.subTitlePrestation {
+  margin-bottom: 1%;
 }
 
 /*Victor client*/
@@ -192,7 +214,6 @@ input:checked[type="checkbox"]:before {
   text-align: center;
   margin: 5% 0% 2% 0%;
 }
-
 
 .logoClients {
   display: flex;
@@ -244,3 +265,37 @@ input:checked[type="checkbox"]:before {
   background-color : darkgray;
 }
 
+.team {
+  padding-top: 5vh;
+}
+
+.slider {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5%;
+  padding-bottom: 10vh;
+  justify-content: center;
+}
+
+.teamPic {
+position: relative;
+width: 200vh;
+margin: 0%;
+animation: slider 20sec infinite;
+
+}
+img.team {
+  height: 40vh;
+  width: 25vh;
+  border: solid black ;
+  position: relative;
+  
+}
+h1.team {
+  flex-direction: row;
+  margin-left: 40vh;
+  color: #4f4f4f;
+}
