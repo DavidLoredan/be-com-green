@@ -274,24 +274,45 @@ input:checked[type="checkbox"]:before {
 
 .team {
   padding-top: 5vh;
+  height: 600px;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 500px 100px;
+  grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
+  align-items: center;
+  justify-items: center;
 }
 
-.slider {
-  overflow: hidden;
-  position: relative;
+.carousselle {
+  grid-row: 1 / 2;
+  grid-column: 1 / 8;
+  width: 100vw;
+  height: 500px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 5%;
-  padding-bottom: 10vh;
+  align-items: center;
   justify-content: center;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  --items: 5;
+  --middle: 3;
+  --position: 1;
+  pointer-events: none;
 }
 
-.teamPic {
-position: relative;
-width: 200vh;
-margin: 0%;
-animation: slider 20sec infinite;
+.item {
+  div.item {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: coral;
+    --r: calc(var(--position) - var(--offset));
+    --abs: max(calc(var(--r) * -1), var(--r));
+    transition: all 0.25s linear;
+    transform: rotateY(calc(-10deg * var(--r)))
+      translateX(calc(-300px * var(--r)));
+    z-index: calc((var(--position) - var(--abs)));
+  }
 
 }
 img.team {
@@ -305,6 +326,7 @@ h1.team {
   flex-direction: row;
   margin-left: 40vh;
   color: #4f4f4f;
+  align-items: flex-start;
 }
 
 
