@@ -36,7 +36,7 @@ window.addEventListener('scroll', function(){
     
         if (count < target) {
           counter.innerText = count + increment;
-          setTimeout(updateCount,50) //reload every 1ms
+          setTimeout(updateCount,30) //reload every 50ms
         }
         else {
           count.innerText = target;
