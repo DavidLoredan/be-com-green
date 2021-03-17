@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+/*Loredan Nav bar */
+
+/*Loredan agence */
+
+/*Thomas dark mode*/
+
+/*Thomas valeurs et chiffres*/
+
+/*Thomas Chiffres animés */
+
+/*Gaspard slider personnel*/
+
+/*Gaspard image parralaxe*/
+
+/*Victor prestation*/
+.prestation {
+  flex-direction: column;
+}
+
+.prestationBloc1 {
+  margin: 10% 5% 5% 5%;
+  width: 90%;
+  text-align: left;
+}
+
+.prestationBloc2 {
+  margin: 0% 5% 10% 5%;
+  width: 90%;
+  text-align: left;
+}
+
+/*Victor client*/
+.logoClients {
+  width: 50%;
+}
+
+.logoClients img {
+  max-width: 3em;
+  max-height: 3em;
+  margin: 0.3em;
+}
+
+/*Bang contact*/
+.contact {
+  text-align-last: center;
+  flex-direction: column;
+}
+
+.location {
+  margin-top: 20rem;
+}
+
+/*Bang footer*/
+.zero {
+  background-color: #30735f;
+}
