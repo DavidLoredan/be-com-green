@@ -7,8 +7,10 @@ checkbox.addEventListener('change', function() {
   
   if (this.checked) {
     body.classList.add("dark");
+    // insérer le changement de logo ici
   } else {
     body.classList.remove("dark");
+    //insérer le retour au logo de base ici
   }
 });
 
