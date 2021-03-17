@@ -2,13 +2,16 @@
 
 let checkbox = document.querySelector(".dmCheck");
 let body = document.querySelector("body");
+let logo = document.querySelector(".img-logo")
 
 checkbox.addEventListener('change', function() {
   
   if (this.checked) {
     body.classList.add("dark");
+    logo.src = "Assets/greenDark.png"
   } else {
     body.classList.remove("dark");
+    logo.src = "Assets/green.png"
   }
 });
 
@@ -29,14 +32,14 @@ window.addEventListener('scroll', function(){
 
     counters.forEach(counter => {
       const updateCount = () => {
-        const target = +counter.getAttribute('data-target')
-        const count = +counter.innerText;
+        const target = +counter.getAttribute('data-target') // get the value of the set target in html and change the type to number
+        const count = +counter.innerText; 
     
-        const increment = Math.floor(target / nbStep);
+        const increment = Math.floor(target / nbStep); // get integer from the division on target and nbStep
     
         if (count < target) {
           counter.innerText = count + increment;
-          setTimeout(updateCount,50) //reload every 1ms
+          setTimeout(updateCount,30) //run updateCount every x ms
         }
         else {
           count.innerText = target;

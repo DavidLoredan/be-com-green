@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+/*Loredan Nav bar */
+
+/*Loredan agence */
+
+/*Thomas dark mode*/
+
+.transitionDarkmode {
+  color: #02735e;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 10% 0 10%;
+}
+
+/*Thomas valeurs et chiffres*/
+
+.titleValeurs {
+  text-transform: uppercase;
+  margin-left: 15vw;
+  margin-bottom: 1%;
+}
+
+.boxValeurs {
+  margin-top: 10%;
+}
+
+.donnee {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 2%;
+  width: 40vw;
+}
+
+.txtValeurs p {
+  text-align: justify;
+  width: 70vw;
+  margin: 1%;
+}
+
+/*Thomas Chiffres animés */
+
+/*Gaspard slider personnel*/
+
+/*Gaspard image parralaxe*/
+
+/*Victor prestation*/
+.prestation {
+  flex-direction: column;
+}
+
+.prestationBloc1 {
+  margin: 10% 5% 5% 5%;
+  width: 90%;
+  text-align: left;
+}
+
+.prestationBloc2 {
+  margin: 0% 5% 10% 5%;
+  width: 90%;
+  text-align: left;
+}
+
+/*Victor client*/
+.logoClients {
+  width: 60%;
+}
+
+.logoClients img {
+  max-width: 4em;
+  max-height: 4em;
+  margin: 0.3em;
+}
+
+/*Bang contact*/
+.contact {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form input {
+  height: 3rem;
+  width: 35vw;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+textarea {
+  height: 10rem;
+  width: 35vw;
+  margin-top: 2rem;
+}
+
+.location {
+  margin-top: 40rem;
+}
+
+button {
+  margin: 0;
+}
+
+/*Bang footer*/
+.zero {
+  background-color: #30735f;
+  font-weight: bold;
+  font-size: 0.7rem;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.one {
+  display: flex;
+  line-height: 3rem;
+  width: 35rem;
+  margin-left: 0rem;
+  justify-content: space-around;
+}
+
+.two {
+  display: flex;
+  line-height: 3rem;
+  width: 20rem;
+  margin-right: 0.5rem;
+  justify-content: space-around;
+}
