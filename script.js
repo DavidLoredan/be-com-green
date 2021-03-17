@@ -7,7 +7,7 @@ checkbox.addEventListener('change', function() {
   
   if (this.checked) {
     body.classList.add("dark");
-    // insérer le changement de logo ici
+  
   } else {
     body.classList.remove("dark");
     //insérer le retour au logo de base ici
@@ -38,7 +38,7 @@ window.addEventListener('scroll', function(){
     
         if (count < target) {
           counter.innerText = count + increment;
-          setTimeout(updateCount,30) //reload every 50ms
+          setTimeout(updateCount,30) //run updateCount every x ms
         }
         else {
           count.innerText = target;
