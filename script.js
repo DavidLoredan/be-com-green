@@ -29,10 +29,10 @@ window.addEventListener('scroll', function(){
 
     counters.forEach(counter => {
       const updateCount = () => {
-        const target = +counter.getAttribute('data-target')
-        const count = +counter.innerText;
+        const target = +counter.getAttribute('data-target') // get the value of the set target in html and change the type to number
+        const count = +counter.innerText; 
     
-        const increment = Math.floor(target / nbStep);
+        const increment = Math.floor(target / nbStep); // get integer from the division on target and nbStep
     
         if (count < target) {
           counter.innerText = count + increment;
@@ -45,4 +45,3 @@ window.addEventListener('scroll', function(){
       updateCount();
     });
 });
-
