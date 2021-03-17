@@ -171,8 +171,9 @@ input:checked[type="checkbox"]:before {
 .donnee {
   display: flex;
   align-items: center;
-  flex-direction: column;
-  margin: 2%;
+  flex-direction : column;
+  margin : 2%;
+  width : 180px;
 }
 .chiffres {
   display: flex;
@@ -184,7 +185,12 @@ input:checked[type="checkbox"]:before {
   font-size: 3em;
   color: #03a678;
   font-weight: bold;
+  border: 1px solid black;
+  width : 100%;
+  text-align: center;
+  align-content: baseline;
 }
+
 
 /*Gaspard slider personnel*/
 
