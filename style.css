@@ -254,12 +254,18 @@ input:checked[type="checkbox"]:before {
 
 /*Bang contact*/
 
+
 .contact {
   display: flex;
   justify-content: space-around;
   font-weight: bold;
-  border-top: 10rem;
+  margin-top: 2rem;
   color: #4f4f4f;
+  width : 100vw;
+}
+
+.boxForm {
+  width : 40vw;
 }
 
 form {
@@ -267,16 +273,16 @@ form {
   font-size: 1.5rem;
 }
 
-input {
+form input {
   height: 3rem;
-  width: 30rem;
+  width: 35vw;
   margin-top: 2rem;
   font-size: 1rem;
 }
 
 textarea {
   height: 10rem;
-  width: 30rem;
+  width: 35vw;
   margin-top: 2rem;
 }
 
@@ -284,7 +290,7 @@ button {
   height: 4rem;
   width: 10rem;
   background-color: #e5e5e5;
-  margin-left: 20rem;
+  margin-left: 15rem;
   margin-top: 3rem;
   font-size: 1.5rem;
   font-weight: bold;
@@ -295,6 +301,11 @@ button {
   margin: 0.7rem;
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
+  width : 40vw;
+}
+
+.map {
+  margin-top : 2em;
 }
 
 /*Bang footer*/

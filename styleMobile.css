@@ -81,12 +81,32 @@
 
 /*Bang contact*/
 .contact {
-  text-align-last: center;
+  text-align: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+form input {
+  height: 3rem;
+  width: 35vw;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+textarea {
+  height: 10rem;
+  width: 35vw;
+  margin-top: 2rem;
+}
+
+
 .location {
-  margin-top: 20rem;
+  margin-top: 40rem;
+}
+
+button {
+  margin : 0;
 }
 
 /*Bang footer*/
