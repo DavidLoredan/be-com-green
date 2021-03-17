@@ -6,6 +6,7 @@
 /*Loredan Nav bar */
 header {
   margin-top: 2%;
+  position: sticky;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -152,7 +153,7 @@ input:checked[type="checkbox"]:before {
   text-transform: uppercase;
   margin-left: 8vw;
   margin-bottom: 1%;
-  font-size : 2em;
+  font-size: 2em;
 }
 .txtValeurs {
   display: flex;
@@ -173,10 +174,9 @@ input:checked[type="checkbox"]:before {
 .donnee {
   display: flex;
   align-items: center;
-  flex-direction : column;
-  margin : 2%;
-  width : 20vw;
-  
+  flex-direction: column;
+  margin: 2%;
+  width: 20vw;
 }
 .chiffres {
   display: flex;
@@ -189,11 +189,10 @@ input:checked[type="checkbox"]:before {
   font-size: 3em;
   color: #03a678;
   font-weight: bold;
-  width : 100%;
+  width: 100%;
   text-align: center;
   align-content: baseline;
 }
-
 
 /*Gaspard slider personnel*/
 
@@ -254,18 +253,17 @@ input:checked[type="checkbox"]:before {
 
 /*Bang contact*/
 
-
 .contact {
   display: flex;
   justify-content: space-around;
   font-weight: bold;
   margin-top: 2rem;
   color: #4f4f4f;
-  width : 100vw;
+  width: 100vw;
 }
 
 .boxForm {
-  width : 40vw;
+  width: 40vw;
 }
 
 form {
@@ -301,11 +299,11 @@ button {
   margin: 0.7rem;
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
-  width : 40vw;
+  width: 40vw;
 }
 
 .map {
-  margin-top : 2em;
+  margin-top: 2em;
 }
 
 /*Bang footer*/
@@ -321,7 +319,7 @@ button {
 .one {
   display: flex;
   line-height: 3rem;
-  width: 30rem;
+  width: 35rem;
   margin-left: 0.5rem;
   justify-content: space-between;
 }
@@ -333,7 +331,7 @@ button {
 .two {
   display: flex;
   line-height: 3rem;
-  width: 30rem;
+  width: 20rem;
   margin-right: 0.5rem;
   justify-content: space-between;
 }
