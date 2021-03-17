@@ -209,13 +209,13 @@ input:checked[type="checkbox"]:before {
 }
 
 .prestationBloc1 {
-  margin: 3% 5% 3% 10%;
+  margin: 3% 2% 3% 10%;
   width: 50%;
   text-align: justify;
 }
 
 .prestationBloc2 {
-  margin: 3% 10% 3% 5%;
+  margin: 3% 10% 3% 3%;
   width: 40%;
   text-align: justify;
 }
@@ -340,6 +340,8 @@ button {
   text-decoration: none !important;
 }
 
+/*===================================================*/
+
 .team {
   padding-top: 5vh;
 }
@@ -376,5 +378,45 @@ h1.team {
 /* CSS Darkmode (do not write there please)*/
 
 .dark {
-  background-color: #3e444c;
+  background-color: #212A29;
+  color: #cecece;
+}
+
+.dark .main1 {
+  box-shadow: 1px 1px 12px #19201f;
+
+}
+
+.dark .prestation {
+  box-shadow: 1px 1px 12px #19201f;
+  background-color: #ce7100;
+  color: azure;
+}
+
+.dark .team {
+  color: #cecece;
+}
+
+.dark .contact {
+  color: #cecece;
+}
+
+.dark form input {
+  background-color: #323f3d;
+}
+
+.dark textarea {
+  background-color: #323f3d;
+}
+
+.dark .zero {
+  box-shadow: 1px 1px 12px #19201f;
+}
+
+.dark .one a {
+  color: #cecece;
+}
+
+.dark .two a {
+  color: #cecece;
 }
