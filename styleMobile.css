@@ -10,7 +10,40 @@
 
 /*Thomas dark mode*/
 
+.transitionDarkmode {
+  color: #02735e;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  margin : 0 10% 0 10%;
+}
+
 /*Thomas valeurs et chiffres*/
+
+.titleValeurs {
+  text-transform: uppercase;
+  margin-left: 15vw;
+  margin-bottom: 1%;
+}
+
+.boxValeurs {
+  margin-top: 10%;
+}
+
+.donnee {
+  display: flex;
+  align-items: center;
+  flex-direction : column;
+  margin : 2%;
+  width : 40vw;
+}
+
+.txtValeurs p {
+  text-align: justify;
+  width: 70vw;
+  margin: 1%;
+}
+
 
 /*Thomas Chiffres animés */
 

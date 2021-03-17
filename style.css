@@ -130,7 +130,7 @@ input[type="checkbox"]:before {
   width: 2em;
   height: 2em;
   border-radius: 50%;
-  top: 0;
+  top: -1;
   left: 0;
   background: #fff;
   box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
@@ -145,19 +145,21 @@ input:checked[type="checkbox"]:before {
 
 /*Thomas valeurs et chiffres*/
 .boxValeurs {
-  margin-top: 5%;
+  margin-top: 7%;
 }
 
 .titleValeurs {
   text-transform: uppercase;
   margin-left: 8vw;
   margin-bottom: 1%;
+  font-size : 2em;
 }
 .txtValeurs {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100vw;
+  flex-wrap: wrap;
 }
 
 .txtValeurs p {
@@ -173,19 +175,20 @@ input:checked[type="checkbox"]:before {
   align-items: center;
   flex-direction : column;
   margin : 2%;
-  width : 180px;
+  width : 20vw;
+  
 }
 .chiffres {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .counter {
   font-size: 3em;
   color: #03a678;
   font-weight: bold;
-  border: 1px solid black;
   width : 100%;
   text-align: center;
   align-content: baseline;
