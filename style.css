@@ -232,15 +232,15 @@ input:checked[type="checkbox"]:before {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  width: 40%;
+  width: 30%;
   margin: auto;
   padding-bottom: 5%;
 }
 
 .logoClients img {
-  max-width: 7em;
-  max-height: 7em;
-  margin: 1em;
+  max-width: 5em;
+  max-height: 5em;
+  margin: 0.5em;
 }
 
 /*Bang contact*/
