@@ -383,6 +383,19 @@ h1.team {
   color: #cecece;
 }
 
+.dark header {
+  box-shadow: 1px 1px 12px #19201f;
+  background-color: #1a2120;
+}
+
+.dark li a {
+  color: #cecece;
+}
+
+.dark li a:hover {
+  color: #03a678;
+}
+
 .dark .main1 {
   box-shadow: 1px 1px 12px #19201f;
 
