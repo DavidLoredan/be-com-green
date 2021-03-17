@@ -221,7 +221,7 @@ input:checked[type="checkbox"]:before {
 }
 
 .titlePrestation {
-  margin-bottom: 2%;
+  margin-bottom: 5%;
   font-size: 2em;
 }
 
@@ -441,5 +441,4 @@ h1.team {
   color: #ce7100;
   color: #cecece;
   color: azure;
-
 }
