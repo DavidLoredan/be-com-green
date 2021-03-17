@@ -395,6 +395,11 @@ h1.team {
   color: azure;
 }
 
+.dark .logoClients img {
+  box-shadow: 1px 1px 12px #19201f;
+
+}
+
 .dark .team {
   color: #cecece;
 }
@@ -411,6 +416,12 @@ h1.team {
   background-color: #323f3d;
 }
 
+.dark button {
+  background-color: #ce7100;
+  border: 1rem solid #ce7100;
+  color: azure;
+}
+
 .dark .zero {
   box-shadow: 1px 1px 12px #19201f;
 }
@@ -421,4 +432,16 @@ h1.team {
 
 .dark .two a {
   color: #cecece;
+}
+
+/*La class ci-dessous est un archive des couleurs*/
+
+.colorimetrie {
+  box-shadow: 1px 1px 12px #19201f;
+  color: #212a29;
+  color: #323f3d;
+  color: #ce7100;
+  color: #cecece;
+  color: azure;
+
 }
