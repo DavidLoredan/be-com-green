@@ -6,45 +6,45 @@
 /*Loredan Nav bar */
 
 header {
-  display : flex;
-  height : 8vh;
+  display: flex;
+  height: 8vh;
   align-content: center;
-  width : 100%;
-  position :fixed;
-  top:0;
+  width: 100%;
+  position: fixed;
+  top: 0;
   background-color: #fff;
 }
 
-header>div {
-  margin : auto;
+header > div {
+  margin: auto;
 }
 
 .img-logo {
-  max-width : 10%;
+  max-width: 10%;
   height: auto;
-  margin-left : 20%;
+  margin-left: 20%;
 }
 
 ul {
- list-style: none; 
- display: flex;
- justify-content: space-between;
- margin : auto;
- margin-right: 20%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-right: 20%;
 }
 
 ul li {
-  margin : 5%;
+  margin: 5%;
 }
 
 ul li a {
   text-decoration: none;
-  color : black;
-  font-size : 1em;
+  color: black;
+  font-size: 1em;
 }
 
 ul li a:hover {
-  color : #03a678;
+  color: #03a678;
 }
 
 #Valeurs:before {
@@ -74,47 +74,44 @@ ul li a:hover {
 
 /*Loredan agence */
 
-body>main {
-margin-top : 8vh;
+body > main {
+  margin-top: 8vh;
 }
 
 .boxAgence {
-  display : flex;
-  background-color:#02735E;
+  display: flex;
+  background-color: #02735e;
 }
 
 .txtPresentation {
-  margin : auto;
-  margin-left : 5%;
-  margin-right : 5%;
+  margin: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .titleAgence {
-  color : white;
+  color: white;
   font-size: 2em;
   margin-bottom: 3%;
 }
 
-.txtPresentation p{
-  color : #fff;
+.txtPresentation p {
+  color: #fff;
   text-align: justify;
   margin-bottom: 1%;
 }
 
-
 .box2agence {
-  
 }
 .boxH2 {
-  font-size : 1.4em;
-  color : #fff;
+  font-size: 1.4em;
+  color: #fff;
   margin-bottom: 1%;
 }
 .boxImage {
-  width : 50vw;
-  height : auto;
+  width: 50vw;
+  height: auto;
 }
-
 
 /*Thomas dark mode*/
 .darkmode {
@@ -337,6 +334,10 @@ button {
 }
 
 /*Bang footer*/
+footer div div a {
+  color: white;
+}
+
 .zero {
   background-color: #30735f;
   display: flex;
@@ -352,6 +353,7 @@ button {
   width: 35rem;
   margin-left: 0.5rem;
   justify-content: space-between;
+  color: white !important;
 }
 
 .one a:link {
@@ -364,6 +366,7 @@ button {
   width: 20rem;
   margin-right: 0.5rem;
   justify-content: space-between;
+  color: white !important;
 }
 
 .two a:link {
@@ -371,7 +374,6 @@ button {
 }
 
 /*===================================================*/
-
 
 section#team {
   height: 600px;
@@ -415,24 +417,24 @@ div.item {
   z-index: calc((var(--position) - var(--abs)));
 }
 div.item:nth-of-type(1) {
-  --offset:1;
+  --offset: 1;
   content: url(assets/loredan.png);
-  background-color:#014040;
+  background-color: #014040;
 }
 div.item:nth-of-type(2) {
   --offset: 2;
   content: url();
-  background-color:#02735E;
+  background-color: #02735e;
 }
 div.item:nth-of-type(3) {
   --offset: 3;
   content: url();
-  background-color: #03A678;
+  background-color: #03a678;
 }
 div.item:nth-of-type(4) {
   --offset: 4;
   content: url();
-  background-color: #F28C0F;
+  background-color: #f28c0f;
 }
 div.item:nth-of-type(5) {
   --offset: 5;
@@ -502,7 +504,6 @@ input:nth-of-type(5):checked ~ main#carousel {
 
 .dark .main1 {
   box-shadow: 1px 1px 12px #19201f;
-
 }
 
 .dark .prestation {
@@ -513,7 +514,6 @@ input:nth-of-type(5):checked ~ main#carousel {
 
 .dark .logoClients img {
   box-shadow: 1px 1px 12px #19201f;
-
 }
 
 .dark .team {
@@ -554,4 +554,4 @@ input:nth-of-type(5):checked ~ main#carousel {
   color: #cecece;
 }
 
-/* css parallax */ 
+/* css parallax */
