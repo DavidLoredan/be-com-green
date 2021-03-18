@@ -2,15 +2,16 @@
 
 let checkbox = document.querySelector(".dmCheck");
 let body = document.querySelector("body");
+let logo = document.querySelector(".img-logo")
 
 checkbox.addEventListener('change', function() {
   
   if (this.checked) {
     body.classList.add("dark");
-  
+    logo.src = "Assets/greenDark.png"
   } else {
     body.classList.remove("dark");
-    //insérer le retour au logo de base ici
+    logo.src = "Assets/green.png"
   }
 });
 
