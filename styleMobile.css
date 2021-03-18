@@ -5,6 +5,24 @@
 }
 
 /*Loredan Nav bar */
+.boxAgence {
+  flex-direction : column-reverse;
+}
+.boxImage {
+  width : 100%;
+}
+
+.txtPresentation {
+  margin : auto;
+  margin : 5%;
+}
+
+#Prestations:before {
+  display: block;
+  content: "";
+  height: 0vh;
+  margin: -0vh 0 0;
+}
 
 /*Loredan agence */
 

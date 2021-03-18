@@ -16,8 +16,10 @@
   <body>
     <!-- Loredan Nav bar-->
     <header>
-      <img class="img-logo" src="Assets/green.png" alt="Logo" />
-      <ul class="page-navigation">
+      <div>
+        <img class="img-logo" src="Assets/green.png" alt="Logo" />
+      </div>
+      <ul class="vavBar">
         <li><a href="#L'Agence">L'agence</a></li>
         <li><a href="#Valeurs">Valeurs</a></li>
         <li><a href="#Prestations">Prestations</a></li>
@@ -27,10 +29,10 @@
     </header>
    
     <main>
-      <div class="main1">
-        <div class="boxagence">
-          <h1 class="box2agence"><a name="L'Agence">L'AGENCE</a></h1>
-           <div class="txtvaleurs">
+      <section class="agence" id="L'Agence">
+        <div class="boxAgence">
+           <div class="txtPresentation">
+            <h1 class="titleAgence">L'AGENCE</h1>
               <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -51,9 +53,12 @@
               sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
            </div>
+           <img class="boxImage" src="Assets/lake.jpg" alt="lake" />
         </div>
-        <img class="boxImage" src="Assets/lake.jpg" alt="lake" />
-    </main>
+        
+      </section>
+      
+    
     <!-- Loredan agence -->
 
   <!-- Thomas dark mode-->
@@ -68,8 +73,8 @@
 
   <!-- Thomas valeurs et chiffres -->
 
-  <section class="boxValeurs">
-    <h1 class="titleValeurs"><a name="Valeurs">VALEURS</a></h1>
+  <section class="boxValeurs" id="Valeurs">
+    <h1 class="titleValeurs">VALEURS</h1>
     <div class="txtValeurs">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -133,9 +138,9 @@
       <!-- Gaspard image parralaxe -->
 
   <!-- Victor prestation -->
-  <section class="prestation">
+  <section class="prestation" id="Prestations">
     <div class="prestationBloc1">
-      <h1 class="titlePrestation"><a name="Prestations">PRESTATIONS</a></h1>
+      <h1 class="titlePrestation">PRESTATIONS</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
     <div class="prestationBloc2">
@@ -151,7 +156,7 @@
   </section>
 
   <!-- Victor client -->
-  <h1 class="titleClients"><a name="Clients">CLIENTS</a></h1>
+  <h1 class="titleClients" id="Clients">CLIENTS</h1>
   <section class="logoClients">
     <a href="https://www.orange.fr/">
     <img src="Assets/client-logo-orange.png" alt="Orange" title="Orange" /></a>
@@ -168,9 +173,9 @@
   </section>
 
    <!-- Bang contact -->
-  <div class="contact">
+  <div class="contact" >
     <div class="boxForm">
-      <h2 class="headOfContact"><a name="Contact">CONTACT</a></h2><br>
+      <h2 class="headOfContact" id="Contact">CONTACT</h2><br>
       <form>
         <label>Nom:</label><br />
         <input type="text" placeholder="Votre nom" /><br /><br />
@@ -194,6 +199,7 @@
           width="400" height="400" style="border: 0" allowfullscreen="" loading="active"></iframe>
     </div>
   </div>
+</main>
 
   <!-- Bang footer -->
 
