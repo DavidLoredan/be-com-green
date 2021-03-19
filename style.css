@@ -4,89 +4,115 @@
   font-family: Montserrat;
 }
 /*Loredan Nav bar */
+
 header {
-  margin: 2px solid red;
-  position:fixed;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-content: space-around;
+  height: 8vh;
+  align-content: center;
   width: 100%;
-  height: 15vh;
-  background-color: white;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
 }
+
+header > div {
+  margin: auto;
+}
+
 .img-logo {
-  width: 17vw;
-  margin-left: 5%;
-  margin-right: 20%;
-}
-.page-navigation {
-  align-self: flex-end;
+  max-width: 10%;
+  height: auto;
+  margin-left: 20%;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-right: 20%;
 }
 
-li {
-  float: left;
+ul li {
+  margin: 5%;
 }
 
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 2vw 3vh;
+ul li a {
   text-decoration: none;
-  font-size: 1.7em;
-  font-weight: bolder;
+  color: black;
+  font-size: 1em;
 }
 
-li a:hover {
+ul li a:hover {
   color: #03a678;
 }
+
+#Valeurs:before {
+  display: block;
+  content: "";
+  height: 8vh;
+  margin: -8vh 0 0;
+}
+#Prestations:before {
+  display: block;
+  content: "";
+  height: 8vh;
+  margin: -8vh 0 0;
+}
+#Clients:before {
+  display: block;
+  content: "";
+  height: 8vh;
+  margin: -8vh 0 0;
+}
+#Contact:before {
+  display: block;
+  content: "";
+  height: 8vh;
+  margin: -8vh 0 0;
+}
+
 /*Loredan agence */
-.main1 {
+
+body > main {
+  margin-top: 8vh;
+}
+
+.boxAgence {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
   background-color: #02735e;
-  max-width: 100%;
-  height: 70vh;
 }
-.txtvaleurs {
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-top: 15%;
-  margin-left: 4%;
-  margin-right: 4%;
+
+.txtPresentation {
+  margin: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
-.boxagence {
-  width: 50%;
-  height: 70vh;
-  background-color: #02735e;
-  color: azure;
-  text-align: left;
-  padding-left: 10vw;
-  height: 100%;
+
+.titleAgence {
+  color: white;
+  font-size: 2em;
+  margin-bottom: 3%;
 }
+
+.txtPresentation p {
+  color: #fff;
+  text-align: justify;
+  margin-bottom: 1%;
+}
+
 .box2agence {
-  padding-top: 25vh;
-  padding-left: 10vw;
 }
 .boxH2 {
-  padding-top: 5px;
-  padding-left: 10px;
+  font-size: 1.4em;
+  color: #fff;
+  margin-bottom: 1%;
 }
 .boxImage {
-  display: flex;
-  width: 50%;
-  height: 100%;
+  width: 50vw;
+  height: auto;
 }
+
 /*Thomas dark mode*/
 .darkmode {
   margin-top: 3%;
@@ -250,6 +276,7 @@ input:checked[type="checkbox"]:before {
   max-width: 5em;
   max-height: 5em;
   margin: 0.5em;
+  border-radius: 0.5rem;
 }
 
 /*Bang contact*/
@@ -277,12 +304,14 @@ form input {
   width: 35vw;
   margin-top: 2rem;
   font-size: 1rem;
+  border-radius: 0.5rem;
 }
 
 textarea {
   height: 10rem;
   width: 35vw;
   margin-top: 2rem;
+  border-radius: 0.5rem;
 }
 
 button {
@@ -294,6 +323,7 @@ button {
   font-size: 1.5rem;
   font-weight: bold;
   border: 1rem solid #e5e5e5;
+  border-radius: 1rem;
 }
 
 .location {
@@ -308,6 +338,10 @@ button {
 }
 
 /*Bang footer*/
+footer div div a {
+  color: white;
+}
+
 .zero {
   background-color: #30735f;
   display: flex;
@@ -323,6 +357,7 @@ button {
   width: 35rem;
   margin-left: 0.5rem;
   justify-content: space-between;
+  color: white !important;
 }
 
 .one a:link {
@@ -335,6 +370,7 @@ button {
   width: 20rem;
   margin-right: 0.5rem;
   justify-content: space-between;
+  color: white !important;
 }
 
 .two a:link {
@@ -342,7 +378,6 @@ button {
 }
 
 /*===================================================*/
-
 
 section#team {
   height: 600px;
@@ -386,24 +421,24 @@ div.item {
   z-index: calc((var(--position) - var(--abs)));
 }
 div.item:nth-of-type(1) {
-  --offset:1;
+  --offset: 1;
   content: url(assets/loredan.png);
-  background-color:#014040;
+  background-color: #014040;
 }
 div.item:nth-of-type(2) {
   --offset: 2;
   content: url();
-  background-color:#02735E;
+  background-color: #02735e;
 }
 div.item:nth-of-type(3) {
   --offset: 3;
   content: url();
-  background-color: #03A678;
+  background-color: #03a678;
 }
 div.item:nth-of-type(4) {
   --offset: 4;
   content: url();
-  background-color: #F28C0F;
+  background-color: #f28c0f;
 }
 div.item:nth-of-type(5) {
   --offset: 5;
@@ -473,7 +508,6 @@ input:nth-of-type(5):checked ~ main#carousel {
 
 .dark .main1 {
   box-shadow: 1px 1px 12px #19201f;
-
 }
 
 .dark .prestation {
@@ -484,7 +518,6 @@ input:nth-of-type(5):checked ~ main#carousel {
 
 .dark .logoClients img {
   box-shadow: 1px 1px 12px #19201f;
-
 }
 
 .dark .team {
@@ -525,4 +558,4 @@ input:nth-of-type(5):checked ~ main#carousel {
   color: #cecece;
 }
 
-/* css parallax */ 
+/* css parallax */

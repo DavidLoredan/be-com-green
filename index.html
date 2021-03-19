@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>be com'green</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="styleMobile.css" media="screen and (max-width: 800px)"/>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="styleMobile.css"
+      media="screen and (max-width: 800px)"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap"
@@ -16,8 +21,10 @@
   <body>
     <!-- Loredan Nav bar-->
     <header>
-      <img class="img-logo" src="Assets/green.png" alt="Logo" />
-      <ul class="page-navigation">
+      <div>
+        <img class="img-logo" src="Assets/green.png" alt="Logo" />
+      </div>
+      <ul class="vavBar">
         <li><a href="#L'Agence">L'agence</a></li>
         <li><a href="#Valeurs">Valeurs</a></li>
         <li><a href="#Prestations">Prestations</a></li>
@@ -25,13 +32,13 @@
         <li><a href="#Contact">Contact</a></li>
       </ul>
     </header>
-   
+
     <main>
-      <div class="main1">
-        <div class="boxagence">
-          <h1 class="box2agence"><a name="L'Agence">L'AGENCE</a></h1>
-           <div class="txtvaleurs">
-              <p>
+      <section class="agence" id="L'Agence">
+        <div class="boxAgence">
+          <div class="txtPresentation">
+            <h1 class="titleAgence">L'AGENCE</h1>
+            <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -39,9 +46,9 @@
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-              <h2 class="boxH2">pour un web vert</h2>
-              <p>
+            </p>
+            <h2 class="boxH2">pour un web vert</h2>
+            <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -49,170 +56,212 @@
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-           </div>
+            </p>
+          </div>
+          <img class="boxImage" src="Assets/lake.jpg" alt="lake" />
         </div>
-        <img class="boxImage" src="Assets/lake.jpg" alt="lake" />
-    </main>
-    <!-- Loredan agence -->
+      </section>
 
-  <!-- Thomas dark mode-->
-  <div class="darkmode">
-    <p class="transitionDarkmode">
-      Commencez la transition, passez en Dark Mode
-    </p>
-    <div class="checkPos">
-      <input type="checkbox" class="dmCheck" />
-    </div>
-  </div>
+      <!-- Loredan agence -->
 
-  <!-- Thomas valeurs et chiffres -->
-
-  <section class="boxValeurs">
-    <h1 class="titleValeurs"><a name="Valeurs">VALEURS</a></h1>
-    <div class="txtValeurs">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-        culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-        culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-    </div>
-
-    <div class="chiffres">
-        <div class="donnee">
-          <div class="counter" data-target="125405">0</div>
-          <div class="txtChiffres">kg de CO2 économisés</div>
-        </div>
-        <div class="donnee">
-          <div class="counter" data-target="127">0</div>
-          <div class="txtChiffres">projets réalisés</div>
-        </div>
-        <div class="donnee">
-          <div class="counter" data-target="120">0</div>
-          <div class="txtChiffres">clients satisfaits</div>
-        </div>
-        <div class="donnee">
-          <div class="counter" data-target="24657">0</div>
-          <div class="txtChiffres">arbres plantés</div>
+      <!-- Thomas dark mode-->
+      <div class="darkmode">
+        <p class="transitionDarkmode">
+          Commencez la transition, passez en Dark Mode
+        </p>
+        <div class="checkPos">
+          <input type="checkbox" class="dmCheck" />
         </div>
       </div>
-      <div class="test"></div>
-    </section>
-  
-   <!-- Gaspard slider personnel -->
-  <section id="team">
-   <input type="radio" name="position" checked
-    />
-    <input type="radio" name="position"/>
-    <input type="radio" name="position"/>
-    <input type="radio" name="position"/>
-    <input type="radio" name="position"/>
-   
-    <main id="carousel"> 
-        <div class="item">  </div> 
-        <div class="item">  </div> 
-        <div class="item">  </div> 
-        <div class="item">  </div> 
-        <div class="item">  </div>     
-    </main>
-</section>
-   <!-- Gaspard slider peronnel -->
+
+      <!-- Thomas valeurs et chiffres -->
+
+      <section class="boxValeurs" id="Valeurs">
+        <h1 class="titleValeurs">VALEURS</h1>
+        <div class="txtValeurs">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+
+        <div class="chiffres">
+          <div class="donnee">
+            <div class="counter" data-target="125405">0</div>
+            <div class="txtChiffres">kg de CO2 économisés</div>
+          </div>
+          <div class="donnee">
+            <div class="counter" data-target="127">0</div>
+            <div class="txtChiffres">projets réalisés</div>
+          </div>
+          <div class="donnee">
+            <div class="counter" data-target="120">0</div>
+            <div class="txtChiffres">clients satisfaits</div>
+          </div>
+          <div class="donnee">
+            <div class="counter" data-target="24657">0</div>
+            <div class="txtChiffres">arbres plantés</div>
+          </div>
+        </div>
+        <div class="test"></div>
+      </section>
+
+      <!-- Gaspard slider personnel -->
+      <section id="team">
+        <input type="radio" name="position" checked />
+        <input type="radio" name="position" />
+        <input type="radio" name="position" />
+        <input type="radio" name="position" />
+        <input type="radio" name="position" />
+
+        <main id="carousel">
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+        </main>
+      </section>
+      <!-- Gaspard slider peronnel -->
       <!-- Gaspard image parralaxe -->
 
-  <!-- Victor prestation -->
-  <section class="prestation">
-    <div class="prestationBloc1">
-      <h1 class="titlePrestation"><a name="Prestations">PRESTATIONS</a></h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-    <div class="prestationBloc2">
-      <h2 class="subTitlePrestation">Site web</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <br>
-      <h2 class="subTitlePrestation">Application mobile</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <br>
-      <h2 class="subTitlePrestation">E-commerce</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-  </section>
+      <!-- Victor prestation -->
+      <section class="prestation" id="Prestations">
+        <div class="prestationBloc1">
+          <h1 class="titlePrestation">PRESTATIONS</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="prestationBloc2">
+          <h2 class="subTitlePrestation">Site web</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <br />
+          <h2 class="subTitlePrestation">Application mobile</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <br />
+          <h2 class="subTitlePrestation">E-commerce</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </section>
 
-  <!-- Victor client -->
-  <h1 class="titleClients"><a name="Clients">CLIENTS</a></h1>
-  <section class="logoClients">
-    <a href="https://www.orange.fr/">
-    <img src="Assets/client-logo-orange.png" alt="Orange" title="Orange" /></a>
-    <a href="https://www.furet.com/">
-    <img src="Assets/client-logo-fdn.jpg" alt="Furet du nord" title="Furet du nord" /></a>
-    <a href="https://www.fnac.com/">
-      <img src="Assets/client-logo-fnac.png" alt="Fnac" title="Fnac" /></a>
-    <a href="https://www.lego.com/">
-    <img src="Assets/client-logo-lego.png" alt="Lego" title="Lego" /></a>
-    <a href="https://particuliers.societegenerale.fr/">
-    <img src="Assets/client-logo-sg.png" alt="Société Générale" title="Société Générale" /></a>
-    <a href="https://www.darty.com/">
-      <img src="Assets/client-logo-darty.png" alt="Darty" title="Darty" /></a>
-  </section>
+      <!-- Victor client -->
+      <h1 class="titleClients" id="Clients">CLIENTS</h1>
+      <section class="logoClients">
+        <a href="https://www.orange.fr/">
+          <img src="Assets/client-logo-orange.png" alt="Orange" title="Orange"
+        /></a>
+        <a href="https://www.furet.com/">
+          <img
+            src="Assets/client-logo-fdn.jpg"
+            alt="Furet du nord"
+            title="Furet du nord"
+        /></a>
+        <a href="https://www.fnac.com/">
+          <img src="Assets/client-logo-fnac.png" alt="Fnac" title="Fnac"
+        /></a>
+        <a href="https://www.lego.com/">
+          <img src="Assets/client-logo-lego.png" alt="Lego" title="Lego"
+        /></a>
+        <a href="https://particuliers.societegenerale.fr/">
+          <img
+            src="Assets/client-logo-sg.png"
+            alt="Société Générale"
+            title="Société Générale"
+        /></a>
+        <a href="https://www.darty.com/">
+          <img src="Assets/client-logo-darty.png" alt="Darty" title="Darty"
+        /></a>
+      </section>
 
-   <!-- Bang contact -->
-  <div class="contact">
-    <div class="boxForm">
-      <h2 class="headOfContact"><a name="Contact">CONTACT</a></h2><br>
-      <form>
-        <label>Nom:</label><br />
-        <input type="text" placeholder="Votre nom" /><br /><br />
-        <label>Email:</label><br />
-        <input type="text" placeholder="Votre email" /><br /><br />
-        <label>Téléphone:</label><br />
-        <input type="number" placeholder="Votre numéro de téléphone" />
-        <br /><br />
-        <label>Votre message:</label><br />
-        <textarea type="text" placeholder="Votre message"></textarea><br />
-        <button type="submit">ENVOYER</button>
-      </form>
-    </div>
-    <div class="location">
-      <p>Be com' green</p>
-      <p>4 avenue des Saules, 59000 Lille</p>
-      <p>contact@becomgreen.com</p>
-      <p>Tél: 01 02 03 04 05</p>
-      <iframe class="map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.6955235221594!2d3.0155959150950737!3d50.63277278209288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d55ba8fa59e1%3A0xb2d48e50b58f28db!2s4%20Avenue%20des%20Saules%2C%2059160%20Lille!5e0!3m2!1sen!2sfr!4v1615409379910!5m2!1sen!2sfr"
-          width="400" height="400" style="border: 0" allowfullscreen="" loading="active"></iframe>
-    </div>
-  </div>
-
-  <!-- Bang footer -->
-
-  <footer>
-    <div class="zero">
-      <div class="one">
-        <a href="#">&copyDev-G2/2021</a>
-        <a href="#">Cindition d'utilisations</a>
-        <a href="#">Metions légales</a>
+      <!-- Bang contact -->
+      <div class="contact">
+        <div class="boxForm">
+          <h2 class="headOfContact" id="Contact">CONTACT</h2>
+          <br />
+          <form>
+            <label>Nom:</label><br />
+            <input type="text" placeholder="Votre nom" /><br /><br />
+            <label>Email:</label><br />
+            <input type="text" placeholder="Votre email" /><br /><br />
+            <label>Téléphone:</label><br />
+            <input type="number" placeholder="Votre numéro de téléphone" />
+            <br /><br />
+            <label>Votre message:</label><br />
+            <textarea type="text" placeholder="Votre message"></textarea><br />
+            <button type="submit">ENVOYER</button>
+          </form>
+        </div>
+        <div class="location">
+          <p>Be com' green</p>
+          <p>4 avenue des Saules, 59000 Lille</p>
+          <p>contact@becomgreen.com</p>
+          <p>Tél: 01 02 03 04 05</p>
+          <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.6955235221594!2d3.0155959150950737!3d50.63277278209288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d55ba8fa59e1%3A0xb2d48e50b58f28db!2s4%20Avenue%20des%20Saules%2C%2059160%20Lille!5e0!3m2!1sen!2sfr!4v1615409379910!5m2!1sen!2sfr"
+            width="400"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="active"
+          ></iframe>
+        </div>
       </div>
-      <div class="two">
-        <a href="https://twitter.com/?lang=en">Twitter</a>
-        <a href="https://www.instagram.com/">Instagram</a>
-        <a href="https://www.linkedin.com/">LinkedIn</a>
-        <a href="https://github.com/">Github</a>
-      </div>
-    </div>
-  </footer>
-  <script src="script.js"></script>
-</body>
+    </main>
 
+    <!-- Bang footer -->
+
+    <footer>
+      <div class="zero">
+        <div class="one">
+          <a href="#">&copyDev-G2/2021</a>
+          <a href="#">Condition d'utilisations</a>
+          <a href="#">Metions légales</a>
+        </div>
+        <div class="two">
+          <a href="https://twitter.com/?lang=en">Twitter</a>
+          <a href="https://www.instagram.com/">Instagram</a>
+          <a href="https://www.linkedin.com/">LinkedIn</a>
+          <a href="https://github.com/">Github</a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
