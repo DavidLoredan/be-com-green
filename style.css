@@ -276,6 +276,7 @@ input:checked[type="checkbox"]:before {
   max-width: 5em;
   max-height: 5em;
   margin: 0.5em;
+  border-radius: 0.5rem;
 }
 
 /*Bang contact*/
@@ -303,12 +304,14 @@ form input {
   width: 35vw;
   margin-top: 2rem;
   font-size: 1rem;
+  border-radius: 0.5rem;
 }
 
 textarea {
   height: 10rem;
   width: 35vw;
   margin-top: 2rem;
+  border-radius: 0.5rem;
 }
 
 button {
@@ -320,6 +323,7 @@ button {
   font-size: 1.5rem;
   font-weight: bold;
   border: 1rem solid #e5e5e5;
+  border-radius: 1rem;
 }
 
 .location {
