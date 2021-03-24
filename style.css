@@ -223,6 +223,123 @@ input:checked[type="checkbox"]:before {
 
 /*Gaspard slider personnel*/
 
+/* Rajouter un radius retirer les bordures changer la couleure du input vert clair du logo */
+
+section#team {
+  height: 600px;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 500px 100px;
+  grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
+  align-items: center;
+  justify-items: center;
+  margin-top: 40px;
+}
+
+#carousel {
+  grid-row: 1 / 2;
+  grid-column: 1 / 8;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  transform-style: flat;
+  perspective: 200px;
+  --items: 5;
+  --middle: 3;
+  --position: 1;
+  pointer-events: none;
+}
+
+div.Equipe {
+  margin-left: 82vh;
+  margin-top: 7vh;
+
+}
+
+div.item {
+  position: fixed;
+  width: 300px;
+  height: 400px;
+  border-color: black;
+  border-style: 5px solid;
+  border-radius: 3%;
+  --r: calc(var(--position) - var(--offset));
+  --abs: max(calc(var(--r) * -1), var(--r));
+  transition: all 0.25s linear;
+  transform: rotateY(calc(-10deg * var(--r)))
+    translateX(calc(-300px * var(--r)));
+  z-index: calc((var(--position) - var(--abs)));
+}
+div.item:nth-of-type(1) {
+  --offset: 1;
+  content: url(Assets/bang.jpg);
+  background-color: #014040;
+}
+div.item:nth-of-type(2) {
+  --offset: 2;
+  content: url(Assets/gasp.jpg);
+  background-color: #02735e;
+}
+div.item:nth-of-type(3) {
+  --offset: 3;
+  content: url(Assets/victor.jpg);
+  background-color: #03a678;
+}
+div.item:nth-of-type(4) {
+  --offset: 4;
+  content: url(Assets/thomas.jpg);
+  background-color: #f28c0f;
+}
+div.item:nth-of-type(5) {
+  --offset: 5;
+  content: url(Assets/loredan.png);
+  background-color: #591202;
+}
+
+input:nth-of-type(1) {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(1):checked ~ main#carousel {
+  --position: 1;
+}
+
+input:nth-of-type(2) {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(2):checked ~ main#carousel {
+  --position: 2;
+}
+
+input:nth-of-type(3) {
+  grid-column: 4 /5;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(3):checked ~ main#carousel {
+  --position: 3;
+}
+
+input:nth-of-type(4) {
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(4):checked ~ main#carousel {
+  --position: 4;
+}
+
+input:nth-of-type(5) {
+  grid-column: 6 / 7;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(5):checked ~ main#carousel {
+  --position: 5;
+}
+
+
 /*Gaspard image parralaxe*/
 
 /*Victor prestation*/
@@ -378,113 +495,6 @@ footer div div a {
 }
 
 /*===================================================*/
-
-section#team {
-  height: 600px;
-  margin: 0;
-  display: grid;
-  grid-template-rows: 500px 100px;
-  grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
-  align-items: center;
-  justify-items: center;
-  margin-top: 180px;
-}
-
-#carousel {
-  grid-row: 1 / 2;
-  grid-column: 1 / 8;
-  width: 100vw;
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: auto;
-  transform-style: flat;
-  perspective: 200px;
-  --items: 5;
-  --middle: 3;
-  --position: 1;
-  pointer-events: none;
-}
-
-div.item {
-  position: fixed;
-  width: 300px;
-  height: 400px;
-  border-color: black;
-  border-style: solid;
-  --r: calc(var(--position) - var(--offset));
-  --abs: max(calc(var(--r) * -1), var(--r));
-  transition: all 0.25s linear;
-  transform: rotateY(calc(-10deg * var(--r)))
-    translateX(calc(-300px * var(--r)));
-  z-index: calc((var(--position) - var(--abs)));
-}
-div.item:nth-of-type(1) {
-  --offset: 1;
-  content: url(assets/loredan.png);
-  background-color: #014040;
-}
-div.item:nth-of-type(2) {
-  --offset: 2;
-  content: url(Assets/bang.jpg);
-  background-color: #02735e;
-}
-div.item:nth-of-type(3) {
-  --offset: 3;
-  content: url(Assets/victor.jpg);
-  background-color: #03a678;
-}
-div.item:nth-of-type(4) {
-  --offset: 4;
-  content: url(Assets/thomas.jpg);
-  background-color: #f28c0f;
-}
-div.item:nth-of-type(5) {
-  --offset: 5;
-  content: url(Assets/gasp.jpg);
-  background-color: #591202;
-}
-
-input:nth-of-type(1) {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-}
-input:nth-of-type(1):checked ~ main#carousel {
-  --position: 1;
-}
-
-input:nth-of-type(2) {
-  grid-column: 3 / 4;
-  grid-row: 2 / 3;
-}
-input:nth-of-type(2):checked ~ main#carousel {
-  --position: 2;
-}
-
-input:nth-of-type(3) {
-  grid-column: 4 /5;
-  grid-row: 2 / 3;
-}
-input:nth-of-type(3):checked ~ main#carousel {
-  --position: 3;
-}
-
-input:nth-of-type(4) {
-  grid-column: 5 / 6;
-  grid-row: 2 / 3;
-}
-input:nth-of-type(4):checked ~ main#carousel {
-  --position: 4;
-}
-
-input:nth-of-type(5) {
-  grid-column: 6 / 7;
-  grid-row: 2 / 3;
-}
-input:nth-of-type(5):checked ~ main#carousel {
-  --position: 5;
-}
 
 /* CSS Darkmode (do not write there please)*/
 
