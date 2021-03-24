@@ -7,7 +7,7 @@
 
 header {
   display: flex;
-  height: 8vh;
+  height: 9vh;
   align-content: center;
   width: 100%;
   position: fixed;
@@ -20,8 +20,9 @@ header > div {
   margin: auto;
 }
 
+
 .img-logo {
-  max-width: 10%;
+  max-width: 23%;
   height: auto;
   margin-left: 20%;
 }
@@ -41,11 +42,21 @@ ul li {
 ul li a {
   text-decoration: none;
   color: black;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 ul li a:hover {
   color: #03a678;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1150px){
+  ul {
+   margin-right : 30%; 
+  }
+  .img-logo {
+    max-width : 30%;
+    height: auto;
+  }
 }
 
 #Valeurs:before {
@@ -77,17 +88,21 @@ ul li a:hover {
 
 body > main {
   margin-top: 8vh;
+  
 }
 
 .boxAgence {
   display: flex;
   background-color: #02735e;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
+ 
 }
 
 .txtPresentation {
   margin: auto;
   margin-left: 5%;
   margin-right: 5%;
+  
 }
 
 .titleAgence {
@@ -112,6 +127,7 @@ body > main {
 .boxImage {
   width: 50vw;
   height: auto;
+  
 }
 
 /*Thomas dark mode*/
