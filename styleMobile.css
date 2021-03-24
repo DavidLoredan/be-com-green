@@ -5,6 +5,23 @@
 }
 
 /*Loredan Nav bar */
+
+.img-logo {
+  max-width : 40%;
+  height: auto;
+  margin-left : 20%;
+}
+
+ul li {
+  margin : 2%;
+}
+
+ul li a {
+  text-decoration: none;
+  color : black;
+  font-size : 0.8em;
+}
+
 .boxAgence {
   flex-direction : column-reverse;
 }

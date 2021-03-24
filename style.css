@@ -5,92 +5,46 @@
 }
 /*Loredan Nav bar */
 
-
-/* header {
-  margin: 2px solid red;
-  position:fixed;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-content: space-around;
-  width: 100%;
-  height: 19vh;
-  background-color: white;
-}
-.img-logo {
-  width: 17vw;
-  margin-left: 5%;
-  margin-right: 20%;
-}
-.page-navigation {
-  align-self: flex-end;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 2vw 3vh;
-  text-decoration: none;
-  font-size: 1.7em;
-  font-weight: bolder;
-}
-
-li a:hover {
-  color: #03a678;
-} */
-
 header {
-  display : flex;
-  height : 8vh;
+  display: flex;
+  height: 9vh;
   align-content: center;
-  width : 100%;
-  position :fixed;
-  top:0;
-  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
 }
 
-header>div {
-  margin : auto;
+header > div {
+  margin: auto;
 }
 
 .img-logo {
-  max-width : 10%;
+  max-width: 30%;
   height: auto;
-  margin-left : 20%;
+  margin-left: 20%;
 }
 
 ul {
- list-style: none; 
- display: flex;
- justify-content: space-between;
- margin : auto;
- margin-right: 20%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-right: 20%;
 }
 
 ul li {
-  margin : 5%;
+  margin: 5%;
 }
 
 ul li a {
   text-decoration: none;
-  color : black;
-  font-size : 1em;
+  color: black;
+  font-size: 1.2em;
 }
 
 ul li a:hover {
-  color : #03a678;
+  color: #03a678;
 }
 
 #Valeurs:before {
@@ -120,47 +74,49 @@ ul li a:hover {
 
 /*Loredan agence */
 
-body>main {
-margin-top : 8vh;
+body > main {
+  margin-top: 8vh;
+  
 }
 
 .boxAgence {
-  display : flex;
-  background-color:#02735E;
+  display: flex;
+  background-color: #02735e;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
+ 
 }
 
 .txtPresentation {
-  margin : auto;
-  margin-left : 5%;
-  margin-right : 5%;
+  margin: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  
 }
 
 .titleAgence {
-  color : white;
+  color: white;
   font-size: 2em;
   margin-bottom: 3%;
 }
 
-.txtPresentation p{
-  color : #fff;
+.txtPresentation p {
+  color: #fff;
   text-align: justify;
   margin-bottom: 1%;
 }
 
-
 .box2agence {
-  
 }
 .boxH2 {
-  font-size : 1.4em;
-  color : #fff;
+  font-size: 1.4em;
+  color: #fff;
   margin-bottom: 1%;
 }
 .boxImage {
-  width : 50vw;
-  height : auto;
+  width: 50vw;
+  height: auto;
+  
 }
-
 
 /*Thomas dark mode*/
 .darkmode {
@@ -325,6 +281,7 @@ input:checked[type="checkbox"]:before {
   max-width: 5em;
   max-height: 5em;
   margin: 0.5em;
+  border-radius: 0.5rem;
 }
 
 /*Bang contact*/
@@ -352,12 +309,14 @@ form input {
   width: 35vw;
   margin-top: 2rem;
   font-size: 1rem;
+  border-radius: 0.5rem;
 }
 
 textarea {
   height: 10rem;
   width: 35vw;
   margin-top: 2rem;
+  border-radius: 0.5rem;
 }
 
 button {
@@ -369,6 +328,7 @@ button {
   font-size: 1.5rem;
   font-weight: bold;
   border: 1rem solid #e5e5e5;
+  border-radius: 1rem;
 }
 
 .location {
@@ -383,6 +343,10 @@ button {
 }
 
 /*Bang footer*/
+footer div div a {
+  color: white;
+}
+
 .zero {
   background-color: #30735f;
   display: flex;
@@ -398,6 +362,7 @@ button {
   width: 35rem;
   margin-left: 0.5rem;
   justify-content: space-between;
+  color: white !important;
 }
 
 .one a:link {
@@ -410,6 +375,7 @@ button {
   width: 20rem;
   margin-right: 0.5rem;
   justify-content: space-between;
+  color: white !important;
 }
 
 .two a:link {
@@ -417,7 +383,6 @@ button {
 }
 
 /*===================================================*/
-
 
 section#team {
   height: 600px;
@@ -430,7 +395,7 @@ section#team {
   margin-top: 180px;
 }
 
-main#carousel {
+#carousel {
   grid-row: 1 / 2;
   grid-column: 1 / 8;
   width: 100vw;
@@ -461,28 +426,28 @@ div.item {
   z-index: calc((var(--position) - var(--abs)));
 }
 div.item:nth-of-type(1) {
-  --offset:1;
+  --offset: 1;
   content: url(assets/loredan.png);
-  background-color:#014040;
+  background-color: #014040;
 }
 div.item:nth-of-type(2) {
   --offset: 2;
-  content: url();
-  background-color:#02735E;
+  content: url(Assets/bang.jpg);
+  background-color: #02735e;
 }
 div.item:nth-of-type(3) {
   --offset: 3;
-  content: url();
-  background-color: #03A678;
+  content: url(Assets/victor.jpg);
+  background-color: #03a678;
 }
 div.item:nth-of-type(4) {
   --offset: 4;
-  content: url();
-  background-color: #F28C0F;
+  content: url(Assets/thomas.jpg);
+  background-color: #f28c0f;
 }
 div.item:nth-of-type(5) {
   --offset: 5;
-  content: url();
+  content: url(Assets/gasp.jpg);
   background-color: #591202;
 }
 
@@ -548,7 +513,6 @@ input:nth-of-type(5):checked ~ main#carousel {
 
 .dark .main1 {
   box-shadow: 1px 1px 12px #19201f;
-
 }
 
 .dark .prestation {
@@ -559,7 +523,6 @@ input:nth-of-type(5):checked ~ main#carousel {
 
 .dark .logoClients img {
   box-shadow: 1px 1px 12px #19201f;
-
 }
 
 .dark .team {
@@ -600,4 +563,4 @@ input:nth-of-type(5):checked ~ main#carousel {
   color: #cecece;
 }
 
-/* css parallax */ 
+/* css parallax */
