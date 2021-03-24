@@ -432,17 +432,17 @@ div.item:nth-of-type(2) {
 }
 div.item:nth-of-type(3) {
   --offset: 3;
-  content: url();
+  content: url(Assets/victor.jpg);
   background-color: #03a678;
 }
 div.item:nth-of-type(4) {
   --offset: 4;
-  content: url();
+  content: url(Assets/thomas.jpg);
   background-color: #f28c0f;
 }
 div.item:nth-of-type(5) {
   --offset: 5;
-  content: url();
+  content: url(Assets/gasp.jpg);
   background-color: #591202;
 }
 
