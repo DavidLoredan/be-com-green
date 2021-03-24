@@ -270,8 +270,11 @@ section#team {
 }
 
 div.Equipe {
-  margin-left: 82vh;
-  margin-top: 7vh;
+margin-top: 6vw;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 div.item {
@@ -471,7 +474,7 @@ button {
   height: 3rem;
   width: 8rem;
   background-color: #e5e5e5;
-  margin-left: 22rem;
+  margin: auto;
   margin-top: 2rem;
   font-size: 1rem;
   font-weight: bold;
