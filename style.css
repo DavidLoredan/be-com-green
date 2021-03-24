@@ -60,7 +60,7 @@ ul li a:hover {
 }
 
 @media screen and (min-width: 800px) and (max-width: 1150px) {
-  ul {
+  .main-nav {
     margin-right: 30%;
   }
   .img-logo {
@@ -124,8 +124,6 @@ body > main {
   margin-bottom: 1%;
 }
 
-.box2agence {
-}
 .boxH2 {
   font-size: 1.4em;
   color: #fff;
