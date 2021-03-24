@@ -427,7 +427,7 @@ div.item:nth-of-type(1) {
 }
 div.item:nth-of-type(2) {
   --offset: 2;
-  content: url();
+  content: url(Assets/bang.jpg);
   background-color: #02735e;
 }
 div.item:nth-of-type(3) {
