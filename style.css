@@ -9,6 +9,7 @@ html {
 }
 /*Loredan Nav bar */
 
+
 header {
   display: flex;
   height: 9vh;
@@ -17,7 +18,7 @@ header {
   position: fixed;
   top: 0;
   background-color: #fff;
-  z-index: 1000;
+  z-index: 100;
 }
 
 header > div {
@@ -28,6 +29,12 @@ header > div {
   max-width: 23%;
   height: auto;
   margin-left: 20%;
+}
+
+.main-nav {
+display : flex;
+align-content: center;
+margin-right: 20%;
 }
 
 ul {

@@ -4,6 +4,10 @@
   font-family: Montserrat;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*Loredan Nav bar */
 
 .img-logo {
@@ -12,15 +16,18 @@
   margin-left: 20%;
 }
 
-ul li {
-  margin: 1%;
+nav ul li {
+  margin-right : -5%;
 }
 
-ul li a {
+nav ul li a {
   text-decoration: none;
   color: black;
-  font-size: 0.8em;
+  font-size: 1em;
 }
+
+
+/*Loredan agence */
 
 .boxAgence {
   flex-direction: column-reverse;
@@ -41,7 +48,7 @@ ul li a {
   margin: -0vh 0 0;
 }
 
-/*Loredan agence */
+
 
 /*Thomas dark mode*/
 
