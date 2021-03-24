@@ -266,8 +266,11 @@ section#team {
 }
 
 div.Equipe {
-  margin-left: 82vh;
-  margin-top: 7vh;
+margin-top: 6vw;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 div.item {
