@@ -19,13 +19,10 @@ header {
 header > div {
   margin: auto;
 }
-@media screen and (min-width: 800px) and (max-width: 1000px){
-  max-width: 20%;
-  height: auto;
-  margin-left: 20%;
-}
+
+
 .img-logo {
-  max-width: 30%;
+  max-width: 23%;
   height: auto;
   margin-left: 20%;
 }
@@ -50,6 +47,16 @@ ul li a {
 
 ul li a:hover {
   color: #03a678;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1150px){
+  ul {
+   margin-right : 30%; 
+  }
+  .img-logo {
+    max-width : 30%;
+    height: auto;
+  }
 }
 
 #Valeurs:before {
