@@ -58,7 +58,7 @@ header {
   width : 100%;
   position :fixed;
   top:0;
-  background-color: #fff;
+  background-color: white;
 }
 
 header>div {
