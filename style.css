@@ -20,6 +20,9 @@ header {
   background-color: #fff;
   z-index: 100;
 }
+#menuToggle {
+  display: none;
+}
 
 header > div {
   margin: auto;

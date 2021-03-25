@@ -48,3 +48,22 @@ window.addEventListener('scroll', function(){
       updateCount();
     });
 });
+
+
+
+// Menu burger 
+
+const input = document.querySelector("#menuToggle");
+const link = document.querySelectorAll(".link");
+
+
+const closeBurger = ()=>{
+  document.getElementById("menuToggle").checked = false;
+  return;
+}
+
+for (let i =0;i <link.length;i++){
+  link[i].addEventListener('click', function(){
+    closeBurger();
+  });
+}
