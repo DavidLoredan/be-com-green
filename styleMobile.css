@@ -315,17 +315,13 @@ button {
 }
 
 .map {
-  width: 90vw;
+  width: 85vw;
   height: auto;
   margin-top: 0.5em;
   box-shadow: black;
   border-radius: 0.5rem;
   align-self: center;
   margin-left: 2rem;
-}
-
-.map {
-  height: 100vh;
 }
 
 /*Bang footer*/

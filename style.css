@@ -330,7 +330,6 @@ input:nth-of-type(1):checked ~ main#carousel {
   --position: 1;
 }
 
-
 input:nth-of-type(2) {
   grid-column: 3 / 4;
   grid-row: 2 / 3;
@@ -501,6 +500,7 @@ button {
   margin-top: 0.5em;
   box-shadow: 0.5rem solid black;
   border-radius: 0.5rem;
+  height: 200px;
 }
 
 /*Bang footer*/
