@@ -19,6 +19,7 @@ header {
   top: 0;
   background-color: #fff;
   z-index: 100;
+  box-shadow: 1px 1px 12px #19201f;
 }
 
 header > div {
@@ -29,6 +30,7 @@ header > div {
   max-width: 23%;
   height: auto;
   margin-left: 20%;
+  
 }
 
 .main-nav {
@@ -98,7 +100,7 @@ ul li a:hover {
 
 body > main {
   margin-top: 8vh;
-  box-shadow: inset 0 7px 0 7px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 12px #19201f;
 }
 
 .boxAgence {
