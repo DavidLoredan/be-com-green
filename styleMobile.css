@@ -308,22 +308,20 @@ button {
 }
 
 .location {
-  margin-bottom: 1.5rem;
-  font-size: 1rem;
-  width: 50%;
-  height: auto;
-  align-items: center;
+  font-size: 0.8rem;
+  width: 80vw;
+  align-items: centter;
   text-align: center;
-  margin-left: 5rem;
 }
 
 .map {
-  width: 100%;
+  width: 90vw;
   height: auto;
   margin-top: 0.5em;
   box-shadow: black;
   border-radius: 0.5rem;
   align-self: center;
+  margin-left: 2rem;
 }
 
 /*Bang footer*/
