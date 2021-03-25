@@ -407,8 +407,9 @@ input:nth-of-type(5):checked ~ main#carousel {
 .logoClients {
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
   justify-content: center;
-  width: 30%;
+  width: 40%;
   margin: auto;
   padding-bottom: 5%;
 }
@@ -416,8 +417,8 @@ input:nth-of-type(5):checked ~ main#carousel {
 .logoClients img {
   max-width: 5em;
   max-height: 5em;
-  margin: 0.5em;
-  border-radius: 0.5rem;
+  margin: 1em;
+  border-radius: 0.3rem;
 }
 
 /*Bang contact*/
@@ -572,10 +573,6 @@ footer div div a {
   box-shadow: 1px 1px 12px #19201f;
   background-color: #ce7100;
   color: azure;
-}
-
-.dark .logoClients img {
-  box-shadow: 1px 1px 12px #19201f;
 }
 
 .dark .team {
