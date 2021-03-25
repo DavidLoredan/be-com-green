@@ -10,31 +10,18 @@ html {
 
 /*Loredan Nav bar */
 
-/* .img-logo {
-  max-width: 50%;
+.img-logo {
+  max-width: 20%;
   height: auto;
-  margin-left: 20%;
+  margin-left: 10%;
+  margin-top: 4%;
+  text-align: center;
 }
-
-nav ul li {
-  display : flex;
-  align-items: center;
-  margin : 0;
-  margin-right: -10%;
-}
-
-ul li a {
-  text-decoration: none;
-  color: black;
-  font-size: 1em;
-} */
-
-
 
 /* Menu burger  */
 
 .main-nav {
-  margin: 0;
+  margin-right: 10%;
 }
 
 #menuToggle {
@@ -136,15 +123,7 @@ ul li a {
   transition: color 0.2s;
   font-family: Montserrat, sans-serif;
   font-size: 1em;
-  
-}
-
-.menu ul li a:hover {
-  color: #30735f;
-}
-
-.menu ul li:hover {
-  background: white;
+  margin-top: -5%;
 }
 
 .menuEffects {
@@ -392,4 +371,4 @@ form input {
   border-radius: 0.5rem;
   border: 0.15rem solid black;
   align-items: center;
-
+}

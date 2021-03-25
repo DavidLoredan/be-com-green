@@ -24,20 +24,18 @@ header {
   display: none;
 }
 
-header > div {
-  margin: auto;
-}
-
 .img-logo {
   max-width: 23%;
   height: auto;
   margin-left: 20%;
+  margin-top: 1%;
 }
 
 .main-nav {
   display: flex;
   align-content: center;
   margin-right: 20%;
+  margin-top: 0.8%;
 }
 
 ul {
