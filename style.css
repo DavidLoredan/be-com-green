@@ -7,6 +7,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 /*Loredan Nav bar */
 
 header {
@@ -20,6 +21,7 @@ header {
   z-index: 100;
   box-shadow: 1px 1px 12px #19201f;
 }
+
 #menuToggle {
   display: none;
 }
@@ -60,16 +62,6 @@ ul li a:hover {
   color: #03a678;
 }
 
-@media screen and (min-width: 800px) and (max-width: 1150px) {
-  .main-nav {
-    margin-right: 30%;
-  }
-  .img-logo {
-    max-width: 40%;
-    height: auto;
-    margin-top : 5%;
-  }
-}
 
 #Valeurs:before {
   display: block;
@@ -134,6 +126,30 @@ body > main {
   width: 50vw;
   height: auto;
 }
+
+@media screen and (min-width: 800px) and (max-width: 1150px) {
+  .main-nav {
+    margin-right: 30%;
+  }
+  .img-logo {
+    max-width: 40%;
+    height: auto;
+    margin-top : 5%;
+  }
+  .boxAgence {
+    flex-direction: column-reverse;
+  }
+  
+  .boxImage {
+    width: 100%;
+  }
+  
+  .txtPresentation {
+    margin: auto;
+    margin: 5%;
+  }
+}
+
 
 /*Thomas dark mode*/
 .darkmode {
@@ -244,8 +260,6 @@ input:checked[type="checkbox"]:before {
 }
 
 /*Gaspard slider personnel*/
-
-/* Rajouter un radius retirer les bordures changer la couleure du input vert clair du logo */
 
 section#team {
   height: 600px;
@@ -363,7 +377,6 @@ input:nth-of-type(5):checked ~ main#carousel {
   --position: 5;
 }
 
-/*Gaspard image parralaxe*/
 
 /*Victor prestation*/
 .prestation {
@@ -461,7 +474,6 @@ form input {
   justify-content: space-between;
 }
 
-
 textarea {
   height: 10rem;
   width: 35vw;
@@ -489,7 +501,6 @@ button {
   width: 100%;
   text-align: center;
 }
-
 
 .map {
   margin-top: 0.5em;
@@ -540,7 +551,7 @@ footer div div a {
 
 /*===================================================*/
 
-/* CSS Darkmode (do not write there please)*/
+/* CSS Darkmode */
 
 .dark {
   background: linear-gradient(70deg, #212a29, #153330);
@@ -609,4 +620,3 @@ footer div div a {
   color: #cecece;
 }
 
-/* css parallax */

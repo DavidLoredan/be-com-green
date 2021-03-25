@@ -50,7 +50,6 @@ window.addEventListener('scroll', function(){
 });
 
 
-
 // Menu burger 
 
 const input = document.querySelector("#menuToggle");

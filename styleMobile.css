@@ -180,6 +180,7 @@ html {
 .boxAgence {
   flex-direction: column-reverse;
 }
+
 .boxImage {
   width: 100%;
 }
@@ -231,12 +232,6 @@ html {
   width: 70vw;
   margin: 1%;
 }
-
-/*Thomas Chiffres animés */
-
-/*Gaspard slider personnel*/
-
-/*Gaspard image parralaxe*/
 
 /*Victor prestation*/
 .prestation {
