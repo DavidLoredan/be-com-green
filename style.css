@@ -481,8 +481,6 @@ form label span {
 }
 
 button {
-  display: flex;
-  align-items: flex-end;
   background-color: #e5e5e5;
   margin: auto;
   margin-top: 2rem;
@@ -493,7 +491,6 @@ button {
 }
 
 .location {
-  margin: 0.7rem;
   margin-bottom: 1.5rem;
   font-size: 1rem;
   width: 100%;
