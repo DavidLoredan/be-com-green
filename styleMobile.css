@@ -33,6 +33,10 @@ ul li a {
 
 /* Menu burger  */
 
+.main-nav {
+  margin: 0;
+}
+
 #menuToggle {
   display: none;
 }
