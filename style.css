@@ -598,6 +598,7 @@ footer div div a {
 }
 
 .dark button {
+  padding: 1rem;
   background-color: #0c5875a1;
   border: 0rem solid #0c5875a1;
   color: rgb(141, 177, 177);
