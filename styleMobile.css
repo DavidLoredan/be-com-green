@@ -275,22 +275,19 @@ html {
   font-size: 1.2rem;
   width: 100%;
   height: auto;
-  margin-left: -3rem;
 }
 
 .boxForm {
   width: 40vw;
   align-items: center;
+  margin-left: -3%;
 }
 
 form {
   font-size: 1rem;
-  max-width: 100vw;
 }
-
-ul li {
-  margin: 8%;
-  padding-left: 1rem;
+form input {
+  width : 100%;
 }
 textarea {
   height: 10rem;
@@ -299,7 +296,6 @@ textarea {
 
 button {
   background-color: #e5e5e5;
-  margin-left: 1.5rem;
   margin-bottom: 1rem;
   font-size: 0.8rem;
   font-weight: bold;
@@ -310,7 +306,6 @@ button {
 .location {
   font-size: 0.8rem;
   width: 80vw;
-  align-items: centter;
   text-align: center;
 }
 
@@ -321,7 +316,7 @@ button {
   box-shadow: black;
   border-radius: 0.5rem;
   align-self: center;
-  margin-left: 2rem;
+  margin-left: -4%;
 }
 
 /*Bang footer*/
@@ -359,11 +354,4 @@ button {
 
 /*------------------*/
 
-form input {
-  height: 2rem;
-  width: 40vw;
-  font-size: 0.8rem;
-  border-radius: 0.5rem;
-  border: 0.15rem solid black;
-  align-items: center;
-}
+
