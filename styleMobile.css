@@ -330,6 +330,7 @@ button {
 .zero {
   background-color: #30735f;
   font-weight: bold;
+  height: auto;
   font-size: 0.7rem;
   display: flex;
   flex-wrap: nowrap;
@@ -340,7 +341,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   line-height: 3rem;
-  width: 28rem;
+  width: 26rem;
   font-size: 0.5rem;
   margin-left: 0.2rem;
   justify-content: space-around;
