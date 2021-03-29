@@ -62,7 +62,6 @@ ul li a:hover {
   color: #03a678;
 }
 
-
 #Valeurs:before {
   display: block;
   content: "";
@@ -134,22 +133,21 @@ body > main {
   .img-logo {
     max-width: 40%;
     height: auto;
-    margin-top : 5%;
+    margin-top: 5%;
   }
   .boxAgence {
     flex-direction: column-reverse;
   }
-  
+
   .boxImage {
     width: 100%;
   }
-  
+
   .txtPresentation {
     margin: auto;
     margin: 5%;
   }
 }
-
 
 /*Thomas dark mode*/
 .darkmode {
@@ -377,7 +375,6 @@ input:nth-of-type(5):checked ~ main#carousel {
   --position: 5;
 }
 
-
 /*Victor prestation*/
 .prestation {
   display: flex;
@@ -449,7 +446,7 @@ input:nth-of-type(5):checked ~ main#carousel {
 
 form {
   font-size: 1.1rem;
-  margin : 2%;
+  margin: 2%;
   max-width: 100vw;
 }
 
@@ -462,15 +459,16 @@ form input {
   padding-left: 0.5rem;
 }
 
-.nom, .tel {
+.nom,
+.tel {
   width: 16.5vw;
   border-radius: 0.5rem;
 }
 form input {
-  width : 100%;
+  width: 100%;
 }
 .flexForm {
-  display : flex;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -507,7 +505,7 @@ button {
   box-shadow: 0.5rem solid black;
   border-radius: 0.5rem;
   height: 40vh;
-  width : 40vh;
+  width: 40vh;
 }
 
 /*Bang footer*/
@@ -619,4 +617,3 @@ footer div div a {
 .dark .two a {
   color: #cecece;
 }
-
