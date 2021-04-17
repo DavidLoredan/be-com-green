@@ -282,7 +282,7 @@ form {
   font-size: 1rem;
 }
 form input {
-  width : 100%;
+  width: 100%;
 }
 textarea {
   height: 10rem;
@@ -348,5 +348,3 @@ button {
 }
 
 /*------------------*/
-
-
